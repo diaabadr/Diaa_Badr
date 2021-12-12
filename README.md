@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Usage of const word and & operator
 
 You can use the [editor on GitHub](https://github.com/diaabadr/Diaa_Badr/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
