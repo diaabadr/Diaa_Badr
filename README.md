@@ -2,11 +2,12 @@
 
 ### Constant Variables:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It's used to declare constant variable which cannot ever be changed all over the project
 
 ```markdown
-Syntax highlighted code block
-
+    const int y = 10; // how to declare it
+    ```
+```markdown
 # Header 1
 ## Header 2
 ### Header 3
