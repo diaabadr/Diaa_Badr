@@ -6,8 +6,7 @@ It's used to declare constant variable which cannot ever be changed all over the
 
 ```markdown
     const int y = 10; // how to declare it
-    ```
-```markdown
+```
 # Header 1
 ## Header 2
 ### Header 3
