@@ -29,7 +29,7 @@ Here i is a pointer variable that is pointing to a memory location const int-typ
   ```
   The value that is stored in the corresponding pointer variable is modifiable even through the pointer ot through the variable itself , but the locations that is pointed out by const-pointer variable where the corresponding value of x is stored is’t modifiable. 
  
- - const pointer pointing to a const variable:
+ - Const pointer pointing to a const variable:
  
  ```markdown
  int x = 10 ;
@@ -38,7 +38,7 @@ Here i is a pointer variable that is pointing to a memory location const int-typ
     (*i)++ ; // error
  ```
     Here the const pointer variable points to the const variable. So, you are neither allowed to change the const pointer variable(*P) nor the value stored at the location pointed by that pointer variable(*P) , you can change it just with the var.
-    
+    ```markdown
 # Header 1
 ## Header 2
 ### Header 3
