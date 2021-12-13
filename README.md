@@ -7,6 +7,16 @@ It's used to declare constant variable which cannot ever be changed all over the
 ```markdown
     const int y = 10; // how to declare it
 ```
+### Const Keyword With Pointer Variables:
+there are three possible ways to use a const keyword with a pointer, which are as follows:
+####1. pointer variable point to a const value:
+```markdown
+int x{ 10 };
+const int* i = &x;// how to declare it 
+```
+here i is a pointer variable that is pointing to a memory location const int-type, but the value stored at this corresponding location can be changed.
+ 
+ 2.
 # Header 1
 ## Header 2
 ### Header 3
