@@ -37,5 +37,6 @@ Here i is a pointer variable that is pointing to a memory location const int-typ
     x=5  //successful statement
     (*i)++ ; // error
  ```
-    Here the const pointer variable points to the const variable. So, you are neither allowed to change the const pointer variable(*P) nor the value stored at the location pointed by that pointer variable(*P) , you can change it just with the var.
+Here the const pointer variable points to the const variable. So, you are neither allowed to change the const pointer variable(*P) nor the value stored at the location pointed by that pointer variable(*P) , you can change it just with the var.
     
+###Constant Methods:
