@@ -83,3 +83,40 @@ x=10; // not allowed
 }
 ```
 ## References (or Aliases) (&):
+When a variable is declared as a reference, it becomes an alternative name for an existing variable. A variable can be declared as a reference by putting ‘&’ in the declaration.
+
+```
+int x=10;
+int y=&x; // y and x have the same location in the memory
+```
+**It has some useful apps like:**
+- We can modify a value of a variable by passing it to a function by refernce like swapping function.
+```
+void swap(int &first,int &second)
+{
+int t=first;
+first=second;
+second=t;
+}
+```
+- We can use it to save the memory when we pass an object with high size of memory to a function, We can pass it by reference and avoid copying if we passed it by value
+```
+struct Student {
+   string name;
+   string address;
+   int rollNo;
+}
+// If we remove & in below function, a new copy of the student object is created. 
+void print(const Student &s)
+{
+    cout << s.name << "  " << s.address << "  " << s.rollNo;
+}
+```
+-  We can modify elements of an array by for each if we use reference
+```
+vector<int> vect{ 10, 20, 30, 40 }; 
+    for (int &x : vect) 
+        x = x + 5;
+```
+- In the copy constructors 
+**At all most of references uses is to save the memory**
