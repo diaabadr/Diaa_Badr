@@ -39,4 +39,22 @@ Here i is a pointer variable that is pointing to a memory location const int-typ
  ```
 Here the const pointer variable points to the const variable. So, you are neither allowed to change the const pointer variable(*P) nor the value stored at the location pointed by that pointer variable(*P) , you can change it just with the var.
     
-###Constant Methods:
+### Constant Methods:
+Like member functions and member function arguments, the objects of a class can also be declared as const. An object declared as const cannot be modified and can invoke only const member functions as these functions ensure not to modify the object.
+
+```markdown
+const Class_Name Object_name; // How to declare it
+```
+**Note that:**
+- When a function is declared as const, it can be called on any type of object, const object as well as non-const objects.
+- Whenever an object is declared as const, it needs to be initialized at the time of declaration. However, the object initialization while declaring is possible only with the help of constructors.
+
+**Ways to declare const function:**
+- If it's a global fun
+```
+const void fun()
+```
+- If it's a member fun
+```
+void fun() const
+```
