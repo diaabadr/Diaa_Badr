@@ -52,9 +52,34 @@ const Class_Name Object_name; // How to declare it
 **Ways to declare const function:**
 - If it's a global fun
 ```
-const void fun()
+const void fun() {}
 ```
 - If it's a member fun
 ```
-void fun() const
+void fun() const {}
 ```
+### Constant Function Parameters And Return Type:
+- Const fun parameters:
+```
+void fun(const int y)
+{
+    // y = 6; error (y can't be change)
+}
+```
+- Const return type:
+const int fun(int y)
+{
+    y--;
+    return y;
+}
+```
+There is no issue to pass const or non-const variable to the function because the value that will be returned by the function will be constant automatically. As the argument of the function is non-const.
+**Note that:** If you passed a const var to the function that returns a const, the passed var cannot be changed .
+```
+const int fun(const int x)
+{
+x=10; // not allowed
+}
+```
+
+}
