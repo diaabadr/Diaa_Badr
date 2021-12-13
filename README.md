@@ -67,6 +67,7 @@ void fun(const int y)
 }
 ```
 - Const return type:
+```
 const int fun(int y)
 {
     y--;
@@ -81,5 +82,3 @@ const int fun(const int x)
 x=10; // not allowed
 }
 ```
-
-}
