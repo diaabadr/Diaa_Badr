@@ -9,7 +9,7 @@ It's used to declare constant variable which cannot ever be changed all over the
 ```
 ### Const Keyword With Pointer Variables:
 there are three possible ways to use a const keyword with a pointer, which are as follows:
-####1. pointer variable point to a const value:
+1. pointer variable point to a const value:
 ```markdown
 int x{ 10 };
 const int* i = &x;// how to declare it 
